@@ -1,0 +1,28 @@
+#dragon-img {
+	display:block;
+	margin:auto auto;
+	border-radius:5px;
+}
+
+h1, h3 {
+	text-align: center;
+	margin:10px auto 10px auto;
+}
+
+div .thumbnail img {
+	height: 250px;
+}
+
+div .thumbnail p {
+	font-size:12px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
