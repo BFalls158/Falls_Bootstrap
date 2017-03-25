@@ -3,10 +3,13 @@
 	<head>
 		<title>Game of Thrones Fan Site</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/bootstrap.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
 		<link rel="stylesheet" href="styles.css">
-		<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
 		 
 	</head>
 	<body>
@@ -21,115 +24,118 @@
 				</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Photo Gallery</a></li>
-				<li><a href="#">Page 2</a></li> 
+				<li><a href="#home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+				<li><a href="#photo-gallery"><span class="glyphicon glyphicon-picture"></span> Photo Gallery</a></li>
+				<li><a href="#contact"><span class="glyphicon glyphicon-info-sign"></span> Contact Me!</a></li> 
 				</ul>
 			</div>
 			</div>
 		</nav>
-			<div class="container">
-				<div class="row">
-					<div class="jumbotron col-xs-12">
-						<h1>Game of Thrones</h1>
-						<h3>Mega-fan page</h3>
-						<img src="img/dragon.png" alt="dragon" id="dragon-img" class="img-responsive"/>
-					</div>
-				</div>
-			</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="jumbotron col-xs-12" id="home">
+					<h1>Game of Thrones</h1>
+					<h3>Mega-fan page</h3>
+					<img src="dragon.png" alt="dragon" id="dragon-img" class="img-responsive"/>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h3>Here is a collection of some of my favorite scenes from Game of Thrones:</h3>
+		</div>
+		<div class="container" id="photo-gallery">
+			<div class="row">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/WinterIsComing.jpg" alt="winteriscoming" style="width:100%;">
+						<img src="WinterIsComing.jpg" alt="winteriscoming" style="width:100%;">
 						<div class="caption">
 						<p>Season 1 Episode 1: Winter is Coming. The Starks pay homage to King Robert as he arrives at Winterfell.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/motherOfDragons.jpg" alt="motherOfDragons" style="width:100%;">
+						<img src="motherOfDragons.jpg" alt="motherOfDragons" style="width:100%;">
 						<div class="caption">
-						<p>Season 1 Episode 10: Fire and Blood. Daenerys Targaryen walks out of a pyre, her newly born dragons clinging to her.</p>
+						<p>Season 1 Episode 10: Fire and Blood. Daenerys Targaryen walks out of a pyre, her newborn dragons clinging to her.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/youKnowNothing.jpg" alt="youKnowNothing" style="width:100%;">
+						<img src="youKnowNothing.jpg" alt="youKnowNothing" style="width:100%;">
 						<div class="caption">
 						<p>Season 2 Episode 18: The Prince of Winterfell. Ygritte tells Jon Snow how much he knows. (Spoiler: it's nothing.)</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/wildfire.jpg" alt="wildfire" style="width:100%;">
+						<img src="wildfire.jpg" alt="wildfire" style="width:100%;">
 						<div class="caption">
-						<p>Season 2 Episode 20: Battle of the Blackwater. Tyrion defends King's Landing by setting the bay ablaze with Wildfire.</p>
+						<p>Season 2 Episode 20: Battle of the Blackwater. Tyrion defends King's Landing, setting the bay ablaze with Wildfire.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/climbingTheWall.jpg" alt="climbingTheWall" style="width:100%;">
+						<img src="climbingTheWall.jpg" alt="climbingTheWall" style="width:100%;">
 						<div class="caption">
 						<p>Season 3 Episode 26: The Climb. Jon Snow and the wildlings face a daunting climb over the wall.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/redWedding.jpg" alt="redWedding" style="width:100%;">
+						<img src="redWedding.jpg" alt="redWedding" style="width:100%;">
 						<div class="caption">
 						<p>Season 3 Episode 29: The Rain of Castamere. Betrayed by Walder Frey, Robb Stark awaits his fate at the Red Wedding.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/oathkeeper.jpg" alt="oathkeeper" style="width:100%;">
+						<img src="oathkeeper.jpg" alt="oathkeeper" style="width:100%;">
 						<div class="caption">
 						<p>Season 4 Episode 34: Oathkeeper. Jaime Lannister presents Brienne Tarth with his Valyrian steel sword, Oathkeeper.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/viperAndTheMountain.jpg" alt="viperAndTheMountain" style="width:100%;">
+						<img src="viperAndTheMountain.jpg" alt="viperAndTheMountain" style="width:100%;">
 						<div class="caption">
 						<p>Season 4 Episode 38: The Mountain and the Viper. Champions fight for Tyrion and Cersei at thier trial.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/fightingPits.jpg" alt="fightingPits" style="width:100%;">
+						<img src="fightingPits.jpg" alt="fightingPits" style="width:100%;">
 						<div class="caption">
 						<p>Season 4 Episode 49: The Dance of Dragons. Dany approaches Drogon in the pits.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/forTheWatch.jpg" alt="forTheWatch" style="width:100%;">
+						<img src="forTheWatch.jpg" alt="forTheWatch" style="width:100%;">
 						<div class="caption">
 						<p>Season 5 Episode 50: Mother's Mercy. Jon Snow lies in a pool of blood after being betrayed by his brothers.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/towerOfJoy.jpg" alt="towerOfJoy" style="width:100%;">
+						<img src="towerOfJoy.jpg" alt="towerOfJoy" style="width:100%;">
 						<div class="caption">
 						<p>Season 6 Episode 53: Oathbreaker. Bran learns the truth about his 'brother' Jon Snow.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="col-lg-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="img/battleOfTheBastards.jpg" alt="battleOfTheBastards" style="width:100%;">
+						<img src="battleOfTheBastards.jpg" alt="battleOfTheBastards" style="width:100%;">
 						<div class="caption">
 						<p>Season 6 Episode 59: Battle of the Bastards. Bolton and Snow meet on the battlefield.</p>
 						</div>
@@ -137,5 +143,34 @@
 				</div>
 			</div>
 		</div>
+		<div id="contact">
+		  <div class="row">
+		    <form>
+		      <div class="col-md-6 col-md-offset-3 col-xs-12">
+		        <div class="form-group">
+		          <h4><em>If you have any ideas for the page, email me!</em></h4>
+		          <div class="input-group">
+		            <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+		            <input type="text" class="form-control" placeholder="Name">
+		          </div>
+		          <br>
+		          <div class="input-group">
+		            <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+		            <input type="text" class="form-control" placeholder="Email">
+		          </div>
+		          <br>
+		          <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+		          <br>
+		          <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-send" id="sumbit-button"></i>               Send</button>
+		        </div>
+		      </div>
+		    </form>
+		  </div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.js"
+  		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  		crossorigin="anonymous"></script>
+  		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</body>
 </html>

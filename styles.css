@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+
+body {
+	font-family: "MedievalSharp", cursive;
+}
+
 #dragon-img {
 	display:block;
 	margin:auto auto;
@@ -6,7 +12,11 @@
 
 h1, h3 {
 	text-align: center;
-	margin:10px auto 10px auto;
+	margin:20px auto 10px auto;
+}
+
+h4 {
+	text-align: center;
 }
 
 div .thumbnail img {
@@ -25,4 +35,9 @@ div .thumbnail p {
 
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
 }
